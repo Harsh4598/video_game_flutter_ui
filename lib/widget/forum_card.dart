@@ -36,7 +36,7 @@ class ForumCard extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     forum.imagePath,
-                    fit: BoxFit.cover,
+                    fit: BoxFit.fitWidth,
                   ),
                   Positioned(
                     left: 0,
